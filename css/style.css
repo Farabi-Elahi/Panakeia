@@ -1,0 +1,299 @@
+/* Global Css */
+
+
+body {
+	font-family: 'Roboto Slab', serif!important;
+}
+
+section {
+	padding: 150px 0px;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+
+}
+
+
+
+
+
+/* Header Section */
+
+.navbar {
+    background-color: #edeff1!important;
+    padding: 30px 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-dark 
+.navbar-nav 
+.active>
+.nav-link, 
+.navbar-dark 
+.navbar-nav 
+.nav-link.active, 
+.navbar-dark 
+.navbar-nav 
+.nav-link.show, 
+.navbar-dark 
+.navbar-nav 
+.show>
+.nav-link {
+    /* color: black; */
+    background: #dd4b2b;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+
+li.nav-item {
+    margin: 0px 10px;
+}
+
+/* Hero Section */
+
+.Hero {
+	background: url(../img/Panakeia_template-Symu_co.png) no-repeat;
+	background-size: cover;
+
+}
+
+.hero-top {
+	text-align: center;
+	color: white;
+	padding-top: 400px;
+}
+
+.hero-top h2 {
+	font-size: 72px;
+	
+}
+
+.hero-top p {
+	font-size: 30px;
+	padding-bottom: 125px;
+
+}
+
+.integer-1 h5 {
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.integer-1 p {
+	font-size: 15px;
+
+	  }
+
+.integer-2 h5 {
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.integer-2 p {
+	font-size: 15px;
+
+	  }
+
+
+.integer-3 h5 {
+	font-size: 30px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.integer-3 p {
+	font-size: 15px;
+
+	  }
+
+
+.btn-custom{
+	background: white;
+	color: #6c3226;
+	padding: 10px 25px;
+	border-radius: 17px;
+	font-size: 15px;
+	margin: 0 auto;
+	transition: 0.8s ease;
+}
+
+ .btn-custom:hover {
+ 	background: #dd4b2b;
+ 	color: white;
+ }
+/* News Section */
+
+.our-news{
+	text-align: center;
+	background-color: #edeff1
+}
+
+
+.our-news h1 {
+	
+	padding: 82px 0px;
+}
+
+.our-news h4 {
+	font-size: 24px;
+	padding-bottom: 30px;
+
+}
+
+.our-news p {
+	font-size: 15px;
+	padding-bottom: 30px;
+}
+
+.our-news img {
+	width: 98%;
+	padding-bottom: 45px;
+}
+
+
+/* Newsletter Section */
+
+
+.newsletter {
+	color: white;
+	background: url(../img/newsletter.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+input.form-control {
+    background: transparent;
+    border-radius: 17px;
+    border: 1px solid white;
+    position: relative;
+}
+
+input.sign-btn {
+    background: white;
+    color: #612316;
+    padding: 5px 50px;
+    border-radius: 19px;
+    border: 1px solid white;
+    position: absolute;
+    top: 185px;
+    /* left: 109px; */
+    right: 15px;
+}
+
+
+input::placeholder {
+  color: white!important;
+  
+}
+
+
+.newsletter-title h2 {
+
+	font-size: 30px;
+	padding-bottom: 30px;
+
+
+}
+
+
+.newsletter-title p {
+
+	font-size: 15px;
+	padding-bottom: 50px;
+
+
+}
+
+
+
+/* blank image section */
+
+.blank-img-setion {
+	text-align: center;
+}
+
+
+
+.one p {
+	padding-bottom: 20px;
+}
+
+
+
+
+/* orange section*/
+
+
+.orange-section {
+	background-color: #d75d0e;
+	color: white;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	font-size: 16px;
+}
+
+
+/* Footer*/
+
+footer {
+
+	color: white;
+	background: url(../img/newsletter.png)no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 150px 0px;
+
+}
+
+
+/* Media Quary*/
+
+/* Mobile */
+
+@media (min-width: 0px) (max-width: 500px) {
+
+	.btn-custom{
+	background: yellow;
+	color: #white;
+	padding: 10px 25px;
+	border-radius: 17px;
+	font-size: 15px;
+	margin: 0 auto;
+	transition: 0.8s ease;
+}
+
+}
+
+
+@media (min-width: 501px) and (max-width: 767px) {
+
+}
+
+
+
+@media (min-width: 786px) and (max-width: 1199px) {
+
+}
+
+
+@media (min-width: 786px) and (max-width: 1199px) {
+
+}
+
+
+@media (min-width: 1200px)  {
+
+}
